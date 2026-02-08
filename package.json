@@ -1,0 +1,51 @@
+{
+  "name": "openclaw-skill-whozere",
+  "version": "1.0.0",
+  "description": "OpenClaw skill for receiving login alerts from whozere",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "lint": "eslint src/",
+    "format": "prettier --write .",
+    "test": "vitest",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "whozere",
+    "login-alert",
+    "security",
+    "notification"
+  ],
+  "author": "xsddz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsddz/openclaw-skill-whozere.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xsddz/openclaw-skill-whozere/issues"
+  },
+  "homepage": "https://github.com/xsddz/openclaw-skill-whozere#readme",
+  "files": [
+    "dist",
+    "SKILL.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "prettier": "^3.2.0",
+    "tsdown": "^0.2.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.1.0"
+  }
+}
