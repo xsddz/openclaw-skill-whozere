@@ -1,3 +1,6 @@
+
+<h1 align="center">openclaw-skill-whozere</h1>
+
 <p align="center">
   <strong>🦞 + 🔔</strong> — OpenClaw whozere 登录告警技能
 </p>
@@ -12,6 +15,7 @@
   <a href="README.md">English</a> | 中文
 </p>
 
+---
 
 本技能用于将 [whozere](https://github.com/xsddz/whozere) 登录事件实时推送到 OpenClaw 支持的各类消息渠道（Telegram、Slack、Discord、WhatsApp 等），并可选启用 AI 风险分析。
 
